@@ -9,5 +9,5 @@ app02
 db01
 
 [control]
-8254af893189 ansible_connection=local
+control ansible_connection=local
 
