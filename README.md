@@ -12,4 +12,12 @@ This project includes sample Ansible scripts for engineers interested in configu
 * Operational playbooks to check cluster status and perform a cluster restart.
 * Optimized Ansible playbooks to reduce playbook execution time.
 
+## Optimization
+
+- look for the places that doe snot need gathering facts
+ ```gather_facts: false```
+- implement cache valid time and skip unnecessary cache validation 
+- limit execution by host: when you run the playbooks, you can limit the execution to some subset of the hosts
+  ```nsible-playbook playbooks/site.yml --limit node2```
+- limit execution by tasks using tags.
 
