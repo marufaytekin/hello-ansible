@@ -22,5 +22,5 @@ This project includes sample Ansible scripts for engineers interested in configu
 - Limit execution by tasks using tags.
 
 ## Resources
-- Get started from here: https://www.ansible.com/resources/get-started
-- You can follow the tutorial here: https://www.udemy.com/mastering-ansible/
+- Fist place to start (my opinion): https://www.ansible.com/resources/get-started
+- You perefer to follow an instructior: https://www.udemy.com/mastering-ansible/
