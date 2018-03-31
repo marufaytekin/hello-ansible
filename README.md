@@ -4,7 +4,7 @@ This is a sample setup with Ansible for consifuration management and orchestrati
 
 Setup includes Ansible scripts to build a 3-tiered web application environment leveraging NGINX, Apache2, Python, and MySQL on Ubuntu Linux servers.
 
-This project includes sample Ansible scripts for engineers interested in configuration management, orchestration, infrastructure-as-code, and devops principles.
+This project includes sample Ansible scripts for engineers interested in configuration management, orchestration, infrastructure-as-code, and devops principles. This is the code for mastering ansible tutorial on Udemy.
 
 ## Sample Ansible Scripts
 * Ansible configuration playbooks to deploy a 3-tier web application
@@ -13,11 +13,14 @@ This project includes sample Ansible scripts for engineers interested in configu
 * Optimized Ansible playbooks to reduce playbook execution time.
 
 ## Optimization
-
-- look for the places that doe snot need gathering facts
+ 
+- Look for the places that doe snot need gathering facts
  ```gather_facts: false```
-- implement cache valid time and skip unnecessary cache validation 
-- limit execution by host: when you run the playbooks, you can limit the execution to some subset of the hosts
-  ```nsible-playbook playbooks/site.yml --limit node2```
-- limit execution by tasks using tags.
+- Implement cache valid time and skip unnecessary cache validation 
+- Limit execution by host: when you run the playbooks, you can limit the execution to some subset of the hosts
+  ```ansible-playbook playbooks/site.yml --limit node2```
+- Limit execution by tasks using tags.
 
+## Resources
+- Get started from here: https://www.ansible.com/resources/get-started
+- You can follow the tutorial here: https://www.udemy.com/mastering-ansible/
