@@ -23,4 +23,4 @@ This project includes sample Ansible scripts for engineers interested in configu
 
 ## Resources
 - Fist place to start (my opinion): https://www.ansible.com/resources/get-started
-- You perefer to follow an instructior: https://www.udemy.com/mastering-ansible/
+- You perefer to follow an instructor: https://www.udemy.com/mastering-ansible/
